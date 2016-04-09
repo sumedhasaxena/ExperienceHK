@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Coda:400,800);
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 0px 0px 50px 20px;
+    border-bottom: 1px ridge;
+    min-height:300px;
+}
+.row-footer{
+    background-color: #AfAfAf;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+   background-image: url("../images/hk_skyline_jumbotron.jpg");
+   background-size: cover;
+   padding: 0px auto;
+   margin: 0px;
+}
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+expHK {
+   font-family: 'Coda', cursive;
+   font-size: 36px;
+   color:floralwhite;
+}
+expHKsubheading {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 23px;
+    color:#ffefcc;
+}
+
+body{
+    padding:0px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-inverse {
+     background: #0c0f27;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #000000;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #303F9F;
+    color:#fff;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color:#000000;
+}
+
+login {
+   font-family: 'Coda', cursive;
+   font-size: 20px;
+   color:floralwhite;
+}
+.modal-backdrop {
+   background-color: #b3b3ff;
+}
+.modal-header {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #00001a;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+ }
+.affix {
+    top:60px;
+}
+/*
+.subnav {
+    background-color: #b3b3ff;
+    width: 100%;
+    max-height: 60px;
+    
+}
+.subnav.affix {
+    top:200px;
+    
+}
+*/
